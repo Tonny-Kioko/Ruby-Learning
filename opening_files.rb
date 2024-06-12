@@ -2,8 +2,7 @@
 
 File.open("README.md", "r") do |file|
   puts file.read
+  puts file.readline
 
-  #puts file.readline
-
-end
+file.close
 
